@@ -1,0 +1,15 @@
+site_name: Domain-Driven Design Handbook
+site_description: Practical notes and reference for Domain-Driven Design
+
+theme:
+  name: material
+
+plugins:
+  - search
+
+nav:
+  - Home: index.md
+  - Strategic Design:
+      - Event Storming: strategic-design/event-storming.md
+  - Glossary: glossary.md
+  - References: references.md
