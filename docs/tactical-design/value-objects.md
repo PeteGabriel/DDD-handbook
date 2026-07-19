@@ -263,7 +263,22 @@ Some common Value Objects include:
 
 Each encapsulates its own validation rules and behavior instead of exposing raw primitives throughout the domain.
 
+
+
+How Value Objects compare to Entities:
+
+
+| **Aspect** | **Value Object** |	**Entity** |
+|--------------|------------|------------|
+|  Identity |	No |	Yes |
+|  Mutability  |	Immutable |	Mutable |
+|  Equality	| By value |	By identity |
+|  Lifecycle |	Usually short-lived |	Persists over time |
+|  Purpose |	Describe concepts	| Model business objects |
+
+
 ---
+
 
 ## Common pitfalls
 
